@@ -1,5 +1,6 @@
 .
 ├── .git
+│   ├── COMMIT_EDITMSG
 │   ├── FETCH_HEAD
 │   ├── HEAD
 │   ├── ORIG_HEAD
@@ -33,10 +34,20 @@
 │   │               ├── HEAD
 │   │               └── master
 │   ├── objects
+│   │   ├── 04
+│   │   │   └── 4cd6ce710c23d0e9af90ee0cacb4921f1f1c15
 │   │   ├── 0d
 │   │   │   └── 6623ef6e70cfe4a54293a5c1d14054bfb5f630
+│   │   ├── 5b
+│   │   │   └── f56cb0d52cd7f8d4b8c1311fce8a1a82ab5dea
+│   │   ├── 8b
+│   │   │   └── b708519323dda63fadd0424950e97302de5160
+│   │   ├── aa
+│   │   │   └── 5691d365c3640776fdd601844fa89b2de15405
 │   │   ├── c5
 │   │   │   └── f951dd4099c97ca2bde3b40cc2a2505ac9baee
+│   │   ├── e4
+│   │   │   └── d8916f4ed7f660d5c8d32a5a7343e10467ee5e
 │   │   ├── eb
 │   │   │   └── 377c7e25c8c2d4b307d88627405bf17578e91f
 │   │   ├── info
@@ -79,7 +90,9 @@
 ├── estrutura_diretorio.txt
 ├── organism_v1.gif
 └── script
+    ├── __pycache__
+    │   └── plotting.cpython-36.pyc
     ├── organism_v1.py
     └── plotting.py
 
-24 directories, 58 files
+30 directories, 65 files

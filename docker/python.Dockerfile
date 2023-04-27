@@ -1,14 +1,13 @@
-# FROM python:3.7.9
-FROM gfsilveira/env_docker:v0.5.0
+FROM python:3.6
 
 LABEL maintainer="Guilherme F Silveira"
 
 WORKDIR /usr/src/myapp
 
-COPY ./python_req.txt /usr/src/myapp
+COPY ./requirements.txt /usr/src/myapp
 
 RUN pip install --upgrade pip && \
-    pip install -r python_req.txt && \ 
+    pip install -r requirements.txt && \ 
     apt-get update && \
     # Instrução de instalções para exportar o notebook para pdf
     apt-get install -y pandoc && \ 
